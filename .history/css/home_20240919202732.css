@@ -5,7 +5,7 @@
 
 :root {
     --cor-pricipal: #604CC3;
-    --cor-secundaria: #FF6600;
+    --cor-secundaria: FF6600;
     --cor-terciaria: #99c2ff;
     --cor-quaternaria: #ebf3ff;
     --cor-quintenaria: #000001;
@@ -76,7 +76,7 @@ body {
 }
 
 .menu {
-    color: var(--cor-secundaria);
+    color: var(--cor-quaternaria);
     font-family: var(--fonte-terciaria);
 }
 
@@ -121,7 +121,7 @@ body {
 }
 
 .cart-items-container {
-    display: flex;
+    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 3rem 12rem;
     width: 60vw;
