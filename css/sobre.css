@@ -1,30 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Ubuntu&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Roboto+Condensed:wght@600&family=Ubuntu&display=swap");
-
-:root {
-    --cor-pricipal: #00398f;
-    --cor-secundaria: #4d7ec7;
-    --cor-terciaria: #99c2ff;
-    --cor-quaternaria: #ebf3ff;
-    --cor-quintenaria: #000001;
-
-    --fonte-logo: "New Amsterdam", sans-serif;
-    --fonte-principal: "Nunito Sans", sans-serif;
-    --fonte-secundaria: "Roboto Condensed", sans-serif;
-    --fonte-terciaria: "Ubuntu", sans-serif;
-
-    font-size: 16px;
+.principal_about_titulo {
+    color: var(--cor-secundaria);
 }
-
-* {
-    text-decoration: none;
-}
-
-body {}
 
 .principal_about_conteudo {
+    font-family: var(--fonte-terciaria);
     display: flex;
     justify-content: align;
     margin: 1.25rem;
@@ -35,6 +14,7 @@ body {}
 }
 
 .principal_about_texto {
+    font-family: var(--fonte-segundaria);
     margin: 0px 200px 20px 100px;
     display: inline-block;
 }
@@ -50,7 +30,7 @@ table {
 }
 
 thead {
-    background-color: #333;
+    background-color: var(--cor-pricipal);
     color: white;
 }
 
@@ -67,4 +47,3 @@ tbody td {
 tbody tr:nth-child(even) {
     background-color: #e9e5e5c7;
 }
-
