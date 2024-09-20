@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Roboto+Condensed:wght@600&family=Ubuntu&display=swap");
+
+:root {
+    --cor-pricipal: #00398f;
+    --cor-secundaria: #4d7ec7;
+    --cor-terciaria: #99c2ff;
+    --cor-quaternaria: #ebf3ff;
+    --cor-quintenaria: #000001;
+
+    --fonte-logo: "New Amsterdam", sans-serif;
+    --fonte-principal: "Nunito Sans", sans-serif;
+    --fonte-secundaria: "Roboto Condensed", sans-serif;
+    --fonte-terciaria: "Ubuntu", sans-serif;
+
+    font-size: 16px;
+}
+
+* {
+    text-decoration: none;
+}
+
+body {}
+
+.principal_about_conteudo {
+    display: flex;
+    justify-content: align;
+    margin: 1.25rem;
+}
+
+.principal_about_conteudo img {
+    max-width: 30%;
+}
+
+.principal_about_texto {
+    margin: 0px 200px 20px 100px;
+    display: inline-block;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 100px;
+    justify-content: center;
+    margin-top: 50px 0 0 0;
+    margin-left: 200px;
+    
+}
+
+thead {
+    background-color: #333;
+    color: white;
+}
+
+thead th {
+    padding: 10px;
+    text-align: left;
+}
+
+tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e9e5e5c7;
+}
+
