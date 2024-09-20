@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/css/cadastro.css" />
+    <link rel="stylesheet" href="/css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+  </head>
+  <body>
+    <header class="cabecalho">
+      <div class="cabecalho__logo">
+        <img class="logo" src="/assets/logo.png" alt="logo de super Heroi">
+        <a href="/home.html" class="link-logo"></a>
+      </div>
+      <nav class="cabecalho__menu">
+        <a class="menu" href="home.html">Home</a>
+        <a class="menu" href="produtos.html">Produtos</a>
+        <a class="menu" href="cadastro.html">Cadastro</a>
+        <a class="menu" href="sobre.html">Sobre nós</a>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div class="form-img">
+          <img src="../assets/form.svg" alt="Ilustração de uma pessoa preenchendo um formulário" />
+        </div>
+        <div class="form">
+          <form action="#" aria-labelledby="form-title">
+            <div class="form-header">
+              <div class="title">
+                <h1 id="form-title">Cadastre-se</h1>
+              </div>
+            </div>
+
+            <div class="input-group">
+              <div class="input-box">
+                <label for="firstname">Primeiro Nome</label>
+                <input
+                  id="firstname"
+                  type="text"
+                  name="firstname"
+                  placeholder="Digite seu primeiro nome"
+                  required
+                />
+              </div>
+
+              
+              <div class="input-box">
+                <label for="email">E-mail</label>
+                <input
+                  id="email"
+                  type="email"
+                  name="email"
+                  placeholder="Digite seu e-mail"
+                  required
+                />
+              </div>
+
+              <div class="input-box">
+                <label for="number">Senha</label>
+                <input
+                  id="password"
+                  type="password"
+                  name="password"
+                  placeholder="Digite sua Senha"
+                  required
+                />
+              </div>
+
+              <div class="input-box">
+                <label for="number">Confirmar Senha</label>
+                <input
+                  id="password"
+                  type="password"
+                  name="password"
+                  placeholder="Confirme sua Senha"
+                  required
+                />
+              </div>
+
+              <div class="input-box">
+                <label for="date">Data de Nascimento</label>
+                <input id="date" type="date" name="date" required />
+              </div>
+            </div>
+
+            <div class="input-box">
+                <label for="number">CPF</label>
+                <input
+                  id="cpf"
+                  type="text"
+                  name="cpf"
+                  placeholder="Digite seu CPF"
+                  required
+                />
+              </div>
+
+              <div class="input-box">
+                <label for="number">Endereço</label>
+                <input
+                  id="endereco"
+                  type="text"
+                  name="endereco"
+                  placeholder="Digite seu Endereço"
+                  required
+                />
+              </div>
+
+            <div class="continue-button">
+              <button type="submit">Continuar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer class="rodape">
+      <p class="rodape__links">
+        Acesse nossas páginas nas redes sociais:
+        <br />
+      </p>
+      
+      <p class="rodape__paragrafo">
+        <br />Copyright &copy; 2024 UniSofa. Todos os direitos reservados.<br />
+        Endereço: Rodovia, SC-401, 3730 - Saco Grande, Florianópolis - SC,
+        88032-005
+      </p>
+    </footer>
+  </body>
+</html>
