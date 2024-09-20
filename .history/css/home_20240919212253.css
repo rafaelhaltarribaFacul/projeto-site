@@ -1,3 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Roboto+Condensed:wght@600&family=Ubuntu&display=swap");
+
+:root {
+    --cor-pricipal: #604CC3;
+    --cor-secundaria: #FF6600;
+    --cor-terciaria: #99c2ff;
+    --cor-quaternaria: #F5F5F5;
+    --cor-quintenaria: #000001;
+    
+
+    --fonte-logo: "New Amsterdam", sans-serif;
+    --fonte-principal: "Nunito Sans", sans-serif;
+    --fonte-secundaria: "Roboto Condensed", sans-serif;
+    --fonte-terciaria: "Ubuntu", sans-serif;
+
+    font-size: 16px;
+}
+
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor-quaternaria);
+    color: var(--cor-quintenaria);
+    font-family: var(--fonte-pricipal);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 
 .cart-items-container {
     display: flex;
@@ -81,8 +119,26 @@
     display: flex;
 }
 
+@media screen and (max-width: 480px) {
+    .cabecalho__menu {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
 
 @media (max-width: 768px) {
+    .cabecalho {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem;
+    }
+
+    .cabecalho__menu {
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-top: 1rem;
+    }
+
     .cart-items-container {
         gap: 2rem 6rem;
         width: 80vw;
