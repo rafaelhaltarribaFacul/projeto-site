@@ -10,14 +10,36 @@
   <body>
     <header class="cabecalho">
       <div class="cabecalho__logo">
-        <img class="logo" src="/assets/logo.png" alt="logo de super Heroi">
-        <a href="/home.html" class="link-logo"></a>
+        <a
+          href="./home.html"
+          class="link-logo"
+          aria-label="Ir para a página inicial"
+          ><img src="assets/logo.png" alt=""
+        /></a>
       </div>
       <nav class="cabecalho__menu">
-        <a class="menu" href="home.html">Home</a>
-        <a class="menu" href="produtos.html">Produtos</a>
-        <a class="menu" href="cadastro.html">Cadastro</a>
-        <a class="menu" href="sobre.html">Sobre nós</a>
+        <a class="menu" href="./home.html" aria-label="Ir para a página inicial"
+          >Início</a
+        >
+        <a
+          class="menu"
+          href="./produtos.html"
+          aria-label="Ver tabelas de produtos"
+          >Tabelas</a
+        >
+        <a
+          class="menu"
+          href="./cadastro.html"
+          aria-label="Ir para o formulário de contato"
+          >Formulário</a
+        >
+        <a
+          class="menu"
+          href="./sobre.html"
+          aria-current="page"
+          aria-label="Página atual: Sobre nós"
+          >Sobre nós</a
+        >
       </nav>
     </header>
     <main>
@@ -115,15 +137,20 @@
       </div>
     </main>
     <footer class="rodape">
-      <p class="rodape__links">
-        Acesse nossas páginas nas redes sociais:
+      <p class="rodape_disciplina">
+        Instituição: UniSenai
         <br />
+        Disciplina: Desenvolvimento Web
+        <br />
+        Ano: 2024
+        <br />
+        Semestre: 3º
+        <br />
+        Professor: Bruno Bandeira
       </p>
-      
-      <p class="rodape__paragrafo">
-        <br />Copyright &copy; 2024 UniSofa. Todos os direitos reservados.<br />
-        Endereço: Rodovia, SC-401, 3730 - Saco Grande, Florianópolis - SC,
-        88032-005
+    
+      <p class="rodape__alunos">
+        Beatriz Berto <br /> Fernanda Brum <br /> Rafael Brisola  <br /> Taylan Pinto
       </p>
     </footer>
   </body>

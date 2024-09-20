@@ -1,42 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Ubuntu&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Roboto+Condensed:wght@600&family=Ubuntu&display=swap");
 
-:root {
-    --cor-pricipal: #604CC3;
-    --cor-secundaria: #FF6600;
-    --cor-terciaria: #99c2ff;
-    --cor-quaternaria: #F5F5F5;
-    --cor-quintenaria: #000001;
-
-    --fonte-logo: "New Amsterdam", sans-serif;
-    --fonte-principal: "Nunito Sans", sans-serif;
-    --fonte-secundaria: "Roboto Condensed", sans-serif;
-    --fonte-terciaria: "Ubuntu", sans-serif;
-
-    font-size: 16px;
-}
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
-body {
-    width: 100%;
-    height: 100vh;
-    font-family: var(--fonte-principal);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--cor-quaternaria);
-    color: var(--cor-quintenaria);
-    font-family: var(--fonte-principal);
-}
 
 .link-logo {
     font-family: var(--fonte-logo);
@@ -171,27 +133,3 @@ body {
 
 
 
-@media (max-width: 768px) {
-    .cabecalho {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 1rem;
-    }
-
-    .cabecalho__menu {
-        flex-direction: column;
-        gap: 0.5rem;
-    }
-
-    .principal_about_conteudo {
-        flex-direction: column;
-        align-items: center;
-        padding: 1rem 0;
-    }
-
-    .principal_about_conteudo img {
-        max-width: 100%;
-        margin-left: 0;
-        margin-top: 1rem;
-    }
-}
