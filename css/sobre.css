@@ -1,0 +1,49 @@
+.principal_about_titulo {
+    color: var(--cor-secundaria);
+}
+
+.principal_about_conteudo {
+    font-family: var(--fonte-terciaria);
+    display: flex;
+    justify-content: align;
+    margin: 1.25rem;
+}
+
+.principal_about_conteudo img {
+    max-width: 30%;
+}
+
+.principal_about_texto {
+    font-family: var(--fonte-segundaria);
+    margin: 0px 200px 20px 100px;
+    display: inline-block;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 100px;
+    justify-content: center;
+    margin-top: 50px 0 0 0;
+    margin-left: 200px;
+    
+}
+
+thead {
+    background-color: var(--cor-pricipal);
+    color: white;
+}
+
+thead th {
+    padding: 10px;
+    text-align: left;
+}
+
+tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e9e5e5c7;
+}
